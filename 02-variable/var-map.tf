@@ -15,7 +15,7 @@ output balajimap1 {
   value = "The Srilakshmi is  ${var.balajimap["Srilakshmi"]}"
 }
 
-output balajimap2 {
+output balajimap23 {
 
   value = "The Balaji is  ${var.balajimap["Balaji"]}"
 }

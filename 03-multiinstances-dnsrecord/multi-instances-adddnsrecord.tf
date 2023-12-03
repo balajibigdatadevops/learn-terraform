@@ -28,7 +28,7 @@ resource "aws_route53_record" "backend" {
   zone_id = "Z0216330F2XRXARU66P1"
   name    = "backend-dev"
   type    = "A"
-  ttl     = 30
+  ttl     = 40
   records = [aws_instance.backend.private_ip]
 }
 

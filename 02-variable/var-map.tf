@@ -7,5 +7,5 @@ variable "balajimap" {
 }
 
 output balajimap {
-  value = "The name is ${var.balajimap["Janvika"]}"
+  value = "The Janvika is ${var.balajimap["Janvika"]}"
 }

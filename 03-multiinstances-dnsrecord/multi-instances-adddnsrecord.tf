@@ -45,6 +45,6 @@ resource "aws_route53_record" "mysql" {
   zone_id = "Z0216330F2XRXARU66P1"
   name    = "mysql-dev"
   type    = "A"
-  ttl     = 30
+  ttl     = 300
   records = [aws_instance.mysql.private_ip]
 }
